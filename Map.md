@@ -1,6 +1,6 @@
 [Shortcut to Extract Subdomains and running services]
 ---
-http://zoomeye.org<br>[PowerFull. Do automatically exploits on running services] Limited to 20 request on free access<br>
+http://zoomeye.org [PowerFull. Do automatically exploits on running services] Limited to 20 request on free access<br>
 http://netograph.io [Useless. Low data]<br>
 https://www.nerdydata.com/ [Useless/Marketing stuff]<br>
 http://wigle.net<br>
