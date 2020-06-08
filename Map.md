@@ -7,7 +7,7 @@ http://wigle.net<br>
 http://intelx.io<br>
 http://fofa.so [Limited. You must have an API key to see more than one page]<br>
 http://Onyphe.io [Useless, Single target]<br>
-http://App.binaryedge.io<br> PowerFull. With filters about iot, ports,products, ASN]. 250 requests per month
+http://App.binaryedge.io [PowerFull. With filters about iot, ports,products, ASN]. 250 requests per month<br>
 http://shodan.io [Top tool. Expensive. You must buy when it is on blackfriday chinese. You must keep monitoring twitter shodan for new update]<br>
 http://viz.greynoise.io<br>
 http://ivre.rocks [Use  Zeek (formerly known as Bro), Argus and Nfdump]/ Isnt Website tool<br>
