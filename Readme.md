@@ -2,7 +2,7 @@
 ---
 | Website | Comment |
 |--- | --- |
-http://zoomeye.org | PowerFull. Do automatically exploits on running services<br> Limited to 20 request on free access
+http://zoomeye.org | PowerFull. Do automatically exploits on running services<br> Limited to 20 requests on free access
 http://netograph.io | Useless. Low data<br>
 https://www.nerdydata.com/ | Useless/Marketing stuff<br>
 http://intelx.io | Very impressive. There are many emails with passwords extracted of many databases leaked. Very helpfull to Redteams Companies which have to see whats is going on with your employes email<br>
