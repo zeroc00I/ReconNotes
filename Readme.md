@@ -7,8 +7,8 @@ http://netograph.io | Useless. Low data<br>
 https://www.nerdydata.com/ | Useless/Marketing stuff<br>
 http://intelx.io | Very impressive. There are many emails with passwords extracted of many databases leaked. Very helpfull to Redteams Companies wich have to see whats is going on with your employes email<br>
 http://fofa.so | Limited. You must have an API key to see more than one page<br>
-http://Onyphe.io | Useless, Single target<br>
-http://App.binaryedge.io | PowerFull. With filters about iot, ports,products, ASN. 250 requests per month<br>
+http://onyphe.io | Useless, Single target<br>
+http://app.binaryedge.io | PowerFull. With filters about iot, ports,products, ASN. 250 requests per month<br>
 http://shodan.io | Top tool. Expensive. You must buy when it is on blackfriday chinese. You must keep monitoring twitter shodan for new update<br>
 http://viz.greynoise.io | Low Content, but do automatically exploits on running services, e.g: Its seems exploitable to eternal blue<br>
 http://ivre.rocks | Use  Zeek (formerly known as Bro), Argus and Nfdump/ Isnt Website tool<br>
