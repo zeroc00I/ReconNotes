@@ -4,7 +4,7 @@ http://zoomeye.org [PowerFull. Do automatically exploits on running services] Li
 http://netograph.io [Useless. Low data]<br>
 https://www.nerdydata.com/ [Useless/Marketing stuff]<br>
 http://wigle.net<br>
-http://intelx.io<br>
+http://intelx.io [Very impressive. There are many emails with passwords extracted of many databases leaked. Very helpfull to Redteams Companies wich have to see whats is going on with your employes email]<br>
 http://fofa.so [Limited. You must have an API key to see more than one page]<br>
 http://Onyphe.io [Useless, Single target]<br>
 http://App.binaryedge.io [PowerFull. With filters about iot, ports,products, ASN]. 250 requests per month<br>
