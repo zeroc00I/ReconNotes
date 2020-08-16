@@ -16,7 +16,7 @@ https://spyse.com/search/subdomain | Amazing table view. No search limits, altho
 https://community.riskiq.com/search/ | There are a lot of contents, but seems useless. I cant see anything sensitive<br>
 
 # Process/Methodology:-
-## 1.Attacks(Test on Subdomains first if Target has no subdomains or not juicy subdomains then go for main Domain.)
+## 1. Attacks(Test on Subdomains first if Target has no subdomains or not juicy subdomains then go for main Domain.)
 	
 	All Subdomains:-
 	1)XSS
@@ -58,7 +58,7 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 	31)SQL Injection(use SQLmap) https://medium.com/@hninja049/sql-injection-using-sqlmap-9d14182005a0
 
 
-## 2.RECON:-
+## 2. RECON
 	Find Subdomains(use Amass,Subfinder,Sublister,Nahamsec repo,crtsh,virustotal,)
 		ex: 1.amass enum -brute -d twitch.tv -src
 			2.amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
@@ -74,7 +74,7 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 		-Use Directory Finder Tool(massdns,Dirbuster,GoBuster,dns-parallel-prober,blacksheepwall) also for subdomain brute force.
 			commonspeak for wordlist- subdomain & url data(Not Recommended).
 			Nahamsec Wordlist- Sec-list
-## 3.ENUMERATE:
+## 3. ENUMERATE
 	Port Scanning
 		Massscan     ex: masscan -p1-65535 -iL $ipFile --max-rate 1800 -oG $outPutFile.log
 		Nmap
