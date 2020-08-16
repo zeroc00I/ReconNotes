@@ -164,7 +164,7 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
   
   and juicy Subdomains
 
-	### tips to crawl
+### tips to crawl
 	webpaste
   
 	meg -path find
@@ -307,7 +307,7 @@ across multiple boxes. Sends alerts to user. Uses novel techniques and iterates 
 
 ---
 
-Tips:
+### Tips
 
 	1. wc -l   ---for word count
   
@@ -345,7 +345,7 @@ Tips:
 
 ---
 
-Tools to Install:-
+### Tools to Install:-
 
 	DNS Validator
   
@@ -355,7 +355,7 @@ Tools to Install:-
 
 ---
 
-BUG BOUNTY PLATFORMS
+### BUG BOUNTY PLATFORMS
 
 	Bugcrowd
   
@@ -373,7 +373,7 @@ BUG BOUNTY PLATFORMS
   
 ---
 
-Best Books
+### Best Books
 
 	Web Application Haackers Handbook
   
@@ -392,11 +392,11 @@ Best Books
 
 ---
 
-Burp Extensions
+### Burp Extensions
 	iprotate
 
 ---
 
-Github Repositories
+### Github Repositories
 	https://github.com/vishal9066/AwesomeXSS
 	https://github.com/vishal9066/RegExAPI                       For API findings on Targets
