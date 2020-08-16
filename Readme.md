@@ -15,53 +15,53 @@ http://ivre.rocks | Use Zeek (formerly known as Bro), Argus and Nfdump/ Isnt Web
 https://spyse.com/search/subdomain | Amazing table view. No search limits, although doesn't make advanced things. It's make like a research about service or product<br>
 https://community.riskiq.com/search/ | There are a lot of contents, but seems useless. I cant see anything sensitive<br>
 
-# Process/Methodology:-
+# Process/Methodology:
 ## 1. Attacks(Test on Subdomains first if Target has no subdomains or not juicy subdomains then go for main Domain.)
 	
 	All Subdomains:-
-	1)XSS
-	2)Host Header Injection
-	3)Open Redirection through WaybackURLS
-	4)Improper Access Control & Parameter Tampering(Forgot password,price etc)
-	5)HTML Injection(like xss,reflect back our HTML code)
-	6)File Inclusion(upload malicious file using LFI,RFI(search in burp for file://,url,redirect etc.) , path traversal(var/www/html),run with url)
-	7)SPF(no valid SPF Records)-Sender Policy Framework
-	8)CORS -Cross Origin Resource Sharing(Change Origin by curl or burp search:Access control.. and get XML code)
-	9)SSRF- Server Side Request Forgery(../etc/passwd)(Read Unrestrted file,Scn intrnl network,Rfi(Execute Own Code))
-	10)Critical file Search (use wordlist and on main domain)
-	11)Sorce Code Disclosure(use burp search file://login.php,try to find sql code,site:domain.com index.of.backup)
-	12)CSRF-GET ,POST(html file)
-	13)API search using grep(Use tool for that)
-	14)Authentication Bypass(use my writeup)
-	15)SSTI-Server Side Template Injection (use Portswigger for help)
-	16)Unicode Injection in Mail address param and use burp collborator for receiving mails. 
-	17)for business logic error(use fuzzdb github)
-	18)Sub Domain Takeover(HostileSubbruteforcer, sub404)
-	19)Email Header Injection On Reset password Function
-	20)SMTP and Host Header Injection
-	21)Iframe (for Clickjacking)
-	22)Check Burp History,Arjun,Hakcrawler for finding Endpoint
-	23)Check Cryptography in Reset Password Token
-	24)Bypassing Rate Limit
-	25)Check Headers:
+	1) XSS
+	2) Host Header Injection
+	3) Open Redirection through WaybackURLS
+	4) Improper Access Control & Parameter Tampering(Forgot password,price etc)
+	5) HTML Injection(like xss,reflect back our HTML code)
+	6) File Inclusion(upload malicious file using LFI,RFI(search in burp for file://,url,redirect etc.) , path traversal(var/www/html),run with url)
+	7) SPF(no valid SPF Records)-Sender Policy Framework
+	8) CORS -Cross Origin Resource Sharing(Change Origin by curl or burp search:Access control.. and get XML code)
+	9) SSRF- Server Side Request Forgery(../etc/passwd)(Read Unrestrted file,Scn intrnl network,Rfi(Execute Own Code))
+	10) Critical file Search (use wordlist and on main domain)
+	11) Sorce Code Disclosure(use burp search file://login.php,try to find sql code,site:domain.com index.of.backup)
+	12) CSRF-GET ,POST(html file)
+	13) API search using grep(Use tool for that)
+	14) Authentication Bypass(use my writeup)
+	15) SSTI-Server Side Template Injection (use Portswigger for help)
+	16) Unicode Injection in Mail address param and use burp collborator for receiving mails. 
+	17) for business logic error(use fuzzdb github)
+	18) Sub Domain Takeover(HostileSubbruteforcer, sub404)
+	19) Email Header Injection On Reset password Function
+	20) SMTP and Host Header Injection
+	21) Iframe (for Clickjacking)
+	22) Check Burp History,Arjun,Hakcrawler for finding Endpoint
+	23) Check Cryptography in Reset Password Token
+	24) Bypassing Rate Limit
+	25) Check Headers:
 		X-Originating-IP:IP
 		X-Remote-IP:IP
 		X-Remote-Addr:IP
 		X-Client-IP:IP
 		X-Forwarded-Host:IP
 		X-Forwarded-For:IP
-	26)Directory Bruteforce
-	27)Http Request Smuggling
-	28)Check for Social Signon Bypass
-	29)File Upload CSRF, SSRF, RCE, LFI, XXE
-	30)Buffer Overflow
-	31)SQL Injection(use SQLmap) https://medium.com/@hninja049/sql-injection-using-sqlmap-9d14182005a0
+	26) Directory Bruteforce
+	27) Http Request Smuggling
+	28) Check for Social Signon Bypass
+	29) File Upload CSRF, SSRF, RCE, LFI, XXE
+	30) Buffer Overflow
+	31) SQL Injection(use SQLmap) https://medium.com/@hninja049/sql-injection-using-sqlmap-9d14182005a0
 
 
 ## 2. RECON
 	Find Subdomains(use Amass,Subfinder,Sublister,Nahamsec repo,crtsh,virustotal,)
-		ex: 1.amass enum -brute -d twitch.tv -src
-			2.amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
+		ex: 1. amass enum -brute -d twitch.tv -src
+			2. amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
 
 			Auxiliary-
 			DNSSEC
@@ -154,10 +154,14 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
   http://bgp.he.net,Crunchbase      for Aquistions(Other Organisations)
 
   Whoxy.com,
+  
   DOMLink,
+ 
   https://builtwith.com/relationships/twitch.tv,
   Google Fu,
+  
   Shodan API,
+  
   and juicy Subdomains
 
 	### tips to crawl
@@ -348,7 +352,6 @@ Tools to Install:-
 	Bug Bounty Dorks\
   
 	waybackurl
-  
 
 ---
 
@@ -367,7 +370,6 @@ BUG BOUNTY PLATFORMS
 	Open Bug Bounty
   
 	Yogosha
-  
   
 ---
 
