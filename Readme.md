@@ -207,7 +207,7 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 	2. /*!50000%75%6e%69on*/%73%65%6cect 1,2,3,4,...                                     
 
 ---
-### Personal Recommended tools(Left to Right Priority):-
+### Personal Recommended tools (Left to Right Priority):-
 
 #### for subdomains
 
@@ -221,8 +221,8 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 #### for Separating https & http
 	3. httpx(With Title),httprobe
   
-#### for Subdomains,cloud Services subdomains in js files,Use the Shannon Entropy
-  4. SubDomainizer
+#### for Subdomains,cloud Services subdomains in js files, Use the Shannon Entropy
+  	4. SubDomainizer
 	5.Link Discovery by GoSpider|Hakrawler|Burp Suite Pro & use advance scope as keyword 'Twitch'
   
 #### Juicy Domains by Google,Crtsh,WayBackMachine
