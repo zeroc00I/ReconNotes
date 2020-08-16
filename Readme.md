@@ -151,18 +151,18 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 	Openlist Chrome Extension- open tabs with specified urls 
  	
 ### ASN Lookup,net,
-  http://bgp.he.net,Crunchbase      for Aquistions(Other Organisations)
+  	http://bgp.he.net,Crunchbase      for Aquistions(Other Organisations)
 
-  Whoxy.com,
+ 	 Whoxy.com,
   
-  DOMLink,
+  	DOMLink,
  
-  https://builtwith.com/relationships/twitch.tv,
-  Google Fu,
+ 	 https://builtwith.com/relationships/twitch.tv,
+  	Google Fu,
   
-  Shodan API,
+  	Shodan API,
   
-  and juicy Subdomains
+ 	 and juicy Subdomains
 
 ### tips to crawl
 	webpaste
@@ -256,19 +256,19 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 ---
 ### Automation Tools by different Hunters:-
 
-C-Tier: automation built around scripting up other tools in bash or python. Step based, no workflow.
+	C-Tier: automation built around scripting up other tools in bash or python. Step based, no workflow.
 
-Few techniques. Little extensibility.
+	Few techniques. Little extensibility.
 
-B-Tier: automation writing a few of their own modules. Some GUI or advanced workflow. Medium
+	B-Tier: automation writing a few of their own modules. Some GUI or advanced workflow. Medium
 
-techniques. Runs point-in-time. Flat files.
+	techniques. Runs point-in-time. Flat files.
 
-A-Tier: automation writing all their own modules. Has GUI. Runs iterativley. Manages data via db.
+	A-Tier: automation writing all their own modules. Has GUI. Runs iterativley. Manages data via db.
 
-S-Tier: automation writing their own modules. Has GUI. Runs iterativley. Manages data via db. Scales
+	S-Tier: automation writing their own modules. Has GUI. Runs iterativley. Manages data via db. Scales
 
-across multiple boxes. Sends alerts to user. Uses novel techniques and iterates quickly. ML + AI.
+	across multiple boxes. Sends alerts to user. Uses novel techniques and iterates quickly. ML + AI.
 
 	Frameworks (C-Tier)
   
