@@ -387,7 +387,7 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
   
 	Owasp Testing Guide
   
-	Mobie Application Hackers Handbook
+	Mobile Application Hackers Handbook
   
 
 ---
