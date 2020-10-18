@@ -245,7 +245,7 @@ https://community.riskiq.com/search/ | There are a lot of contents, but seems us
 	11. (can i take over xyz),SubOver & nuclei                    
 
 #### Automation
-	12. Interlace,Pwnkey,Lazyrecon,Spiderfoot(GUI)   
+	12. Interlace,Pwnkey,Lazyrecon,Spiderfoot(GUI),Osmedeus 
 
 #### for links,endpoints
 	13. Linkfinder 
